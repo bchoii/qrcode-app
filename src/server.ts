@@ -26,7 +26,6 @@ async function run() {
     res.end();
   });
 
-  // 5. Start listening a server on 4000 port
   const port = 4000;
   server.listen(port, () =>
     console.log(`Server running at http://localhost:${port}/`)
